@@ -20,3 +20,15 @@ is_passed = True
 print(type(name))   #<class 'str'>
 print(type(roll))   #<class 'int'>
 print(type(is_passed))    #<class 'bool'>
+
+
+
+
+# User inputs
+name = input("Enter your name : ")
+print("Congratulations!", name)
+
+age = input("Enter your age : ")
+age = int(age)
+print("Your age is :",age)
+print(type(age))
