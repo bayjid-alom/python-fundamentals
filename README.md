@@ -22,6 +22,7 @@ py main.py
 | ⬅️⬅️ Go back two folders | `cd ../..` |
 
 ---
+<br>
 
 <details>
 <summary><b>💡 Quick Terminal Cheat Sheet</b></summary>
@@ -48,6 +49,36 @@ pwd
 # Run Python file
 py main.py
 ```
+</details>
+
+---
+<br>
+
+
+
+
+
+
+
+
+
+
+<details>
+<summary><b>♾️ Infinite Loop Note</b></summary>
+
+### **`for` Loop**
+- **Python-এর `for` loop সাধারণত Infinite Loop হয় না**, কারণ এটি নিজেই Loop Variable আপডেট করে।
+- **Infinite Loop সাধারণত `while` loop-এ দেখা যায়।**
+
+### **Example**
+```python
+while True:
+    print("I love Python")
+```
+
+### **Infinite Loop হওয়ার দুইটি শর্ত**
+1. **Condition never becomes `False`.** *(Always `True`)*
+2. **Loop variable is not updated** *(No increment/decrement).*
 
 </details>
 
