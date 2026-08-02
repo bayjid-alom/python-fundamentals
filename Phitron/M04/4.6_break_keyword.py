@@ -17,7 +17,6 @@ break এবং print() যে ক্রমে লেখা হবে, Python �
 
 """
 
-
 # Without print 5
 for i in range(1, 10, 1):
     if i == 5:
@@ -36,9 +35,6 @@ while a <= 10:
         break
 
 
-
-
-
 """Short Note :
 
 Traversing বলতে কোনো Collection-এর প্রতিটি Element শুরু থেকে শেষ পর্যন্ত একে একে অ্যাক্সেস করাকে বোঝায়।
@@ -47,3 +43,17 @@ print() যদি break-এর আগে থাকে, তাহলে আগে
 
 break যদি print()-এর আগে থাকে, তাহলে শর্ত সত্য হলে লুপ সঙ্গে সঙ্গে বন্ধ হবে এবং মানটি প্রিন্ট হবে না।
 """
+
+
+for i in range(50, 101, 10):
+    if i == 90:
+        break
+    print(i)
+
+
+y = 100
+while y <= 150:
+    y = y + 1
+    if y == 120:
+        break
+    print(y)
